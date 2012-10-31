@@ -595,7 +595,7 @@
      Purpose: You can fly in position hold and override it with nick(pitch) and roll movements (defined in Blindzones below). When you return
      those sticks to center a new position for pos.Hold is defined after a timeinterval defined in PosHoldBlindTime.*/
 
-    //#define PositionHoldOverride                          // Uncomment to activate
+    #define PositionHoldOverride                          // Uncomment to activate
   
     /*Parameters for Position hold Override You see here the default values. Uncomment and change if you want */
     //#define PosHoldBlindTime 300000                       // Time in microseconds (def. 0.3 sec) before PH is re-engaged after returning to Stickcenter
