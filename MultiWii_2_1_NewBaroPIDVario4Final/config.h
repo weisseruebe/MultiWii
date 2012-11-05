@@ -535,7 +535,7 @@
   /**************************************************************************************/
     /* introduce a deadband around the stick center
        Must be greater than zero, comment if you dont want a deadband on roll, pitch and yaw */
-    //#define DEADBAND 6
+    #define DEADBAND 6
 
     /*** AltHold Common Variables ***/
     /***********************************************ONLY CHANGE IF REALLY NEEDED*/
